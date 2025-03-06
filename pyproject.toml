@@ -11,7 +11,7 @@ version = "0.0.1"
 description = "Autonomous Scraping Agent: Scrape URLs with prompts and schema"
 readme = "README.md"
 authors = [
-    { name="AI Tech Solutions", email=""},
+    { name="AI Tech Solutions", email="aitalents.technology@aitechsolutionsltd.com"},
   { name="Rohan Dhanraj Yadav", email="rohan.dhanraj@aitechsolutionsltd.com" },
 ]
 license = { file = "LICENSE" }
