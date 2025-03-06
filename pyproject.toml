@@ -1,0 +1,38 @@
+[build-system]
+requires = [
+    "setuptools>=75",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smart-scraping-agent"
+version = "0.0.1"
+description = "Autonomous Scraping Agent: Scrape URLs with prompts and schema"
+readme = "README.md"
+authors = [
+    { name="AI Tech Solutions", email=""},
+  { name="Rohan Dhanraj Yadav", email="rohan.dhanraj@aitechsolutionsltd.com" },
+]
+license = { file = "LICENSE" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "fastapi",
+    "langchain",
+    "langchain-community",
+    "langchain-core",
+    "langchain-openai",
+    "langchain-text-splitters",
+    "markdownify",
+    "playwright",
+    "python-dotenv",
+    "tf-playwright-stealth"
+]
+requires-python = ">=3.12"
+
+[project.urls]
+Homepage = "https://github.com/AI-TECH-SOLUTIONS-LTD/smart-scraping-agent"
+Issues = "https://github.com/AI-TECH-SOLUTIONS-LTD/smart-scraping-agent/issues"
