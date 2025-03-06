@@ -19,7 +19,7 @@ from langchain_core.documents import Document
 from langchain_community.document_loaders.base import BaseLoader
 from langchain_text_splitters import TextSplitter
 
-from smart_scraping_agent.utils import store_web_reader_contents, count_tokens
+from ai_tech_crawler.utils import store_web_reader_contents, count_tokens
 
 
 class LLMFriendlyWebLoader(BaseLoader):

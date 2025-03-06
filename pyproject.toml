@@ -6,7 +6,7 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "smart-scraping-agent"
+name = "ai-tech-crawler"
 version = "0.0.1"
 description = "Autonomous Scraping Agent: Scrape URLs with prompts and schema"
 readme = "README.md"

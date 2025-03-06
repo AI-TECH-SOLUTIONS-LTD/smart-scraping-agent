@@ -15,7 +15,7 @@ playwright install
 ### Step 2: Install SmartScrapingAgent
 Install the Smart Scraping Agent package:
 ```bash
-pip install smart-scraping-agent
+pip install ai-tech-crawler
 ```
 
 ---
@@ -101,7 +101,7 @@ schema_ = {
 ### Step 5: Instantiate the SmartScraperAgent
 Create an instance of the **SmartScraperAgent** with the necessary parameters:
 ```python
-from smart_scraping_agent import SmartScraperAgent
+from ai_tech_crawler import SmartScraperAgent
 
 url = "https://trends.google.com/trending"
 
@@ -144,7 +144,7 @@ print(documents[0].nmetadata)
 ---
 
 ## Contributing
-Contributions are welcome! Feel free to submit issues or pull requests on the [GitHub repository](https://github.com/rohan-aigroup/smart_scraper_package).
+Contributions are welcome! Feel free to submit issues or pull requests on the [GitHub repository](https://github.com/AI-TECH-SOLUTIONS-LTD/smart-scraping-agent).
 
 ---
 

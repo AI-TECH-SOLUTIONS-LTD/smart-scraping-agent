@@ -10,9 +10,9 @@ from langchain_core.output_parsers import PydanticOutputParser, JsonOutputParser
 from langchain_core.output_parsers.format_instructions import JSON_FORMAT_INSTRUCTIONS
 from langchain_core.exceptions import OutputParserException
 
-from smart_scraping_agent.llm_friendly_loader import LLMFriendlyWebLoader
-from smart_scraping_agent.prompt_factory import *
-from smart_scraping_agent.custom_json_parser import json_parser
+from ai_tech_crawler.llm_friendly_loader import LLMFriendlyWebLoader
+from ai_tech_crawler.prompt_factory import *
+from ai_tech_crawler.custom_json_parser import json_parser
 
 
 

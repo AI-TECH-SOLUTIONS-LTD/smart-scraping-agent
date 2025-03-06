@@ -1,2 +1,0 @@
-from smart_scraping_agent.smart_scraper import SmartScraperAgent
-
