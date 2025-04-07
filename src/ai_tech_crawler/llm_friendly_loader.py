@@ -89,7 +89,7 @@ class LLMFriendlyWebLoader(BaseLoader):
 
         """
         from playwright.async_api import async_playwright
-        from playwright_stealth import stealth_async
+        # from playwright_stealth import stealth_async
         
         result = ""
 
@@ -100,7 +100,7 @@ class LLMFriendlyWebLoader(BaseLoader):
                     user_agent=self.user_agent,
                     extra_http_headers=headers
                 )
-                await stealth_async(page)
+                # await stealth_async(page)
                 await page.goto(url)
                 logging.info("\n✅ Successfully loaded requested page.\n")
 

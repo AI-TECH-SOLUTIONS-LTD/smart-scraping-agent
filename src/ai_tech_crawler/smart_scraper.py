@@ -156,15 +156,15 @@ class SmartScraperAgent:
             template_chunks_prompt = TEMPLATE_CHUNKS_MD
 
 
-        docs = self.scrape_and_split_content()
-        current_page_doc = docs[0]
-        chunks = current_page_doc.get('chunks')
-        metadata = current_page_doc.get('metadata')
 
         max_retries: int = self.config.get('max_retries') or 3
         trial = 1
 
         while (trial <= max_retries):
+            docs = self.scrape_and_split_content()
+            current_page_doc = docs[0]
+            chunks = current_page_doc.get('chunks')
+            metadata = current_page_doc.get('metadata')
             results = []
             if len(chunks) == 1:
                 # chunk = chunks[0]
@@ -182,6 +182,7 @@ class SmartScraperAgent:
                 self.content_type = "hybrid_markdown"
                 trial += 1
                 logging.info('\nRetrying ... .. .\n')
+                continue
 
             else:
                 extract_prompt = PromptTemplate(
