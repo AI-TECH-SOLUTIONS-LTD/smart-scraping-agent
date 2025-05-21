@@ -6,16 +6,17 @@
 
 ## Installation
 
-### Step 1: Install Playwright
-Install Playwright, which is required for handling headless browsing:
-```bash
-playwright install
-```
-
-### Step 2: Install SmartScrapingAgent
+### Step 1: Install SmartScrapingAgent
 Install the Smart Scraping Agent package:
 ```bash
 pip install ai-tech-crawler
+```
+
+
+### Step 2: Install Playwright
+Install Playwright, which is required for handling headless browsing:
+```bash
+playwright install
 ```
 
 ---
@@ -130,7 +131,7 @@ print(markdown_content)
 ```python
 documents = smart_scraper_agent.load_indepth_and_split(depth=2)
 print(documents[0].page_content)
-print(documents[0].nmetadata)
+print(documents[0].metadata)
 ```
 
 ---
