@@ -1,4 +1,15 @@
-# SmartScrapingAgent
+# AI Tech Crawler - Smart Scraping Agent
+
+<div align="center">
+
+[![GitHub Stars](https://img.shields.io/github/stars/AI-TECH-SOLUTIONS-LTD/smart-scraping-agent?style=social)](https://github.com/AI-TECH-SOLUTIONS-LTD/smart-scraping-agent/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/AI-TECH-SOLUTIONS-LTD/smart-scraping-agent?style=social)](https://github.com/AI-TECH-SOLUTIONS-LTD/smart-scraping-agent/network/members)
+
+[![PyPI version](https://badge.fury.io/py/ai-tech-crawler.svg)](https://badge.fury.io/py/ai-tech-crawler)
+[![Python Version](https://img.shields.io/pypi/pyversions/ai-tech-crawler)](https://pypi.org/project/ai-tech-crawler/)
+[![Downloads](https://static.pepy.tech/badge/ai-tech-crawler)](https://pepy.tech/project/ai-tech-crawler)
+</div>
+
 
 **SmartScrapingAgent** is a Python package designed to simplify web scraping using state-of-the-art LLMs (Large Language Models) and customizable schemas. With this package, you can extract structured data efficiently from large, complex web pages.
 

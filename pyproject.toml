@@ -7,7 +7,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ai-tech-crawler"
-version = "0.0.3"
+version = "0.0.4"
 description = "Autonomous Scraping Agent: Scrape URLs with prompts and schema"
 readme = "README.md"
 authors = [
